@@ -1,15 +1,14 @@
 def fizzbuzz(int)
-fizz_3 = 3 == 0
-fizz_5 = 5 == 0
-fizz_15 = 3 || 5 == 0
-fizz_4 = nil
-  if int % fizz_3
+  if int % 3 == 0 
     "Fizz"
-  elsif int % fizz_5
+  end
+  if int % 5 == 0
     "Buzz"
-  elsif int % fizz_15
+  end
+  if int % 3 or 5 == 0
     "FizzBuzz"
-  else
+  end
+  if 
     nil
   end
 
