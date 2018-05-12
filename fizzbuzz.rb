@@ -4,7 +4,7 @@ def fizzbuzz(int)
   elsif
      int % 5 == 0
     "Buzz"
-  elsif int % 5 or 3 == 0
+  elsif int % 5 and 3 == 0
     "FizzBuzz"
   else
     nil
