@@ -1,13 +1,16 @@
 def fizzbuzz(int)
-  if int % 3 == 0
+fizz_3 = int % 3
+fizz_5 = int % 5
+fizz_15 = fizz_3 && fizz_5
+fizz_4 = nil
+  if fizz_3 == 0
     "Fizz"
-  elsif
-     int % 5 == 0
+  elsif fizz_5 == 0
     "Buzz"
-  elsif int % (int % 3 == 0 && int % 5 == 0) == 0
+  elsif fizz_15 == 0
     "FizzBuzz"
   else
-    nil
+    fizz_4
   end
 
 end
