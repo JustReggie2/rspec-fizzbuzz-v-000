@@ -1,7 +1,7 @@
 def fizzbuzz(int)
 fizz_3 = int % 3
 fizz_5 = int % 5
-fizz_15 = fizz_3 && fizz_5
+fizz_15 = fizz_3 || fizz_5
 fizz_4 = nil
   if fizz_3 == 0
     "Fizz"
